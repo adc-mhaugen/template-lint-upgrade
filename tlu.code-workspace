@@ -1,0 +1,48 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+
+  "settings": {
+    "search.exclude": {
+      "**/dist": true,
+      "docs": true,
+      "node_modules": true
+    },
+
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[handlebars]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+    "[yaml]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true
+    },
+
+    "js/ts.implicitProjectConfig.experimentalDecorators": true,
+    "stylelint.packageManager": "yarn",
+    "cSpell.words": [],
+    "git.ignoreLimitWarning": true
+  },
+
+  "extensions": {
+    "recommendations": [
+      "candidmetrics.ember-module-snippets",
+      "dbaeumer.vscode-eslint",
+      "lifeart.vscode-ember-unstable",
+      "lifeart.vscode-glimmer-syntax",
+      "stylelint.vscode-stylelint"
+    ]
+  }
+}
